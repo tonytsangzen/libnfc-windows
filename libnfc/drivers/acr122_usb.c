@@ -581,7 +581,7 @@ acr122_usb_send(nfc_device *pnd, const uint8_t *pbtData, const size_t szData, co
 static int
 acr122_usb_receive(nfc_device *pnd, uint8_t *pbtData, const size_t szDataLen, const int timeout)
 {
-  off_t offset = 0;
+  size_t offset = 0;
 
   uint8_t  abtRxBuf[255 + sizeof(struct ccid_header)];
   int res;

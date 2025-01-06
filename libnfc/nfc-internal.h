@@ -34,7 +34,7 @@
 
 #include <stdbool.h>
 #include <err.h>
-#  include <sys/time.h>
+#  include <time.h>
 
 #include "nfc/nfc.h"
 
