@@ -35,3 +35,4 @@ install.log
 build
 .vscode
 .history/**
+!libusb-win32-bin-1.4.0.0

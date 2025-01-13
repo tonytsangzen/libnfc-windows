@@ -9,6 +9,6 @@ target("nfc")
 	      )
 
     add_defines("PACKAGE_VERSION=\"2.4.6\"", "DRIVER_ACR122_USB_ENABLED")
-    add_linkdirs("libusb/lib/msvc_x64")
+    add_linkdirs("libusb-win32-bin-1.4.0.0/lib/msvc_x64")
     add_links("libusb")
-    add_includedirs("libnfc", "include", "contrib/win32", "libusb/include")
+    add_includedirs("libnfc", "include", "contrib/win32", "libusb-win32-bin-1.4.0.0/include")
